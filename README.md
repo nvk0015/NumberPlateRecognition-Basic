@@ -59,8 +59,9 @@ The workplan is as follows:
  ![image](https://user-images.githubusercontent.com/61786557/148661506-1ed5e847-bba2-403c-9bf3-b597ae677ba5.png)
  
  Conclusion:
- This approach being a classical approach works fine with the automobile images having number plates straight withoout distorted, if in case the numberplate is distorted it looses it's accuracy in prediction. 
- This can either be overcomed by including image wrapping and other image enhancing techniques in the preprocessing steps.
- One could also use the Machine Learning approaches detecting the numberplates and then extracting text from them.
+ -This approach being a classical approach works fine with the automobile images having number plates straight withoout distorted, if in case the numberplate is distorted it looses it's accuracy in prediction. 
+ - Since we use the contour forming a rectancgle and hard coding it to be the numberplate there is always a chance that it recognizes closed polygons like head lights as a number plate, which was the case in the last image
+ -This can either be overcomed by including image wrapping and other image enhancing techniques in the preprocessing steps.
+ -One could also use the Machine Learning approaches detecting the numberplates and then extracting text from them.
 
 
